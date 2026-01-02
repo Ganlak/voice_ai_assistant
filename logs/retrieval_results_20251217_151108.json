@@ -1,0 +1,540 @@
+{
+  "test_run": {
+    "timestamp": "2025-12-17T15:11:08.182704",
+    "top_k": 3
+  },
+  "metrics": {
+    "total_queries": 21,
+    "avg_time_ms": 308.46,
+    "min_time_ms": 252.46,
+    "max_time_ms": 1117.5,
+    "avg_top_score": 0.3172999918460846
+  },
+  "results": [
+    {
+      "query": "How should I greet a caller?",
+      "expected_topic": "greeting",
+      "time_ms": 1117.5,
+      "results": [
+        {
+          "chunk_id": "chunk_003",
+          "score": 0.311599999666214,
+          "position": "beginning",
+          "preview": "Welcome  Q: Did the agent use the appropriate and correct greeting? What we’re looking for:  A warm, professional greeti..."
+        },
+        {
+          "chunk_id": "chunk_028",
+          "score": 0.3253999948501587,
+          "position": "middle",
+          "preview": "Required Greeting Elements  Thank the caller for calling  State the clinic name clearly  Offer assistance  Approved Gree..."
+        },
+        {
+          "chunk_id": "chunk_033",
+          "score": 0.3278999924659729,
+          "position": "middle",
+          "preview": "\"Can I help you with anything else today?\"  4.2 Polite Closing  End every call with a polite closing. A standard goodbye..."
+        }
+      ]
+    },
+    {
+      "query": "What do I say when answering the phone?",
+      "expected_topic": "greeting",
+      "time_ms": 277.82,
+      "results": [
+        {
+          "chunk_id": "chunk_030",
+          "score": 0.3467999994754791,
+          "position": "middle",
+          "preview": "Keep responses concise and relevant  Long emotional statements are NOT required - natural acknowledgment is sufficient  ..."
+        },
+        {
+          "chunk_id": "chunk_033",
+          "score": 0.3555999994277954,
+          "position": "middle",
+          "preview": "\"Can I help you with anything else today?\"  4.2 Polite Closing  End every call with a polite closing. A standard goodbye..."
+        },
+        {
+          "chunk_id": "chunk_003",
+          "score": 0.3693000078201294,
+          "position": "beginning",
+          "preview": "Welcome  Q: Did the agent use the appropriate and correct greeting? What we’re looking for:  A warm, professional greeti..."
+        }
+      ]
+    },
+    {
+      "query": "What are the communication guidelines?",
+      "expected_topic": "communication",
+      "time_ms": 257.97,
+      "results": [
+        {
+          "chunk_id": "chunk_029",
+          "score": 0.3343000113964081,
+          "position": "middle",
+          "preview": "Maintain warmth and professionalism throughout  3. Communication Standards  3.1 Tone and Demeanor  Maintain a polite, em..."
+        },
+        {
+          "chunk_id": "chunk_046",
+          "score": 0.36419999599456787,
+          "position": "end",
+          "preview": "Communication Guidelines  Briefly explain the 15-minute late arrival policy  Offer to help find the next available slot ..."
+        },
+        {
+          "chunk_id": "chunk_028",
+          "score": 0.3675999939441681,
+          "position": "middle",
+          "preview": "Required Greeting Elements  Thank the caller for calling  State the clinic name clearly  Offer assistance  Approved Gree..."
+        }
+      ]
+    },
+    {
+      "query": "How should I handle putting someone on hold?",
+      "expected_topic": "communication",
+      "time_ms": 261.92,
+      "results": [
+        {
+          "chunk_id": "chunk_030",
+          "score": 0.26840001344680786,
+          "position": "middle",
+          "preview": "Keep responses concise and relevant  Long emotional statements are NOT required - natural acknowledgment is sufficient  ..."
+        },
+        {
+          "chunk_id": "chunk_005",
+          "score": 0.3237999975681305,
+          "position": "beginning",
+          "preview": "A: PSRs simply need to:  Ask before placing a caller on hold  Thank them when returning  Short, simple phrasing is compl..."
+        },
+        {
+          "chunk_id": "chunk_031",
+          "score": 0.3736000061035156,
+          "position": "middle",
+          "preview": "\"Thank you for holding. I have that information for you now.\"  3.3 Managing Silence and Wait Times  Avoid periods of sil..."
+        }
+      ]
+    },
+    {
+      "query": "What do I do during silence or wait times?",
+      "expected_topic": "communication",
+      "time_ms": 308.62,
+      "results": [
+        {
+          "chunk_id": "chunk_030",
+          "score": 0.3052999973297119,
+          "position": "middle",
+          "preview": "Keep responses concise and relevant  Long emotional statements are NOT required - natural acknowledgment is sufficient  ..."
+        },
+        {
+          "chunk_id": "chunk_048",
+          "score": 0.32910001277923584,
+          "position": "end",
+          "preview": "Silence Management  No dead air exceeding 15 seconds; keep patient informed  Closing  Confirm resolution; polite goodbye..."
+        },
+        {
+          "chunk_id": "chunk_006",
+          "score": 0.33660000562667847,
+          "position": "beginning",
+          "preview": "A: The agent should avoid long periods of silence or dead air exceeding 15 seconds by acknowledging the patient and keep..."
+        }
+      ]
+    },
+    {
+      "query": "How should I end a call?",
+      "expected_topic": "closing",
+      "time_ms": 266.95,
+      "results": [
+        {
+          "chunk_id": "chunk_032",
+          "score": 0.3449000120162964,
+          "position": "middle",
+          "preview": "\"I'm pulling up the details now.\"  4. Call Closing Protocol  4.1 Confirming Resolution  Before ending any call, confirm ..."
+        },
+        {
+          "chunk_id": "chunk_033",
+          "score": 0.34940001368522644,
+          "position": "middle",
+          "preview": "\"Can I help you with anything else today?\"  4.2 Polite Closing  End every call with a polite closing. A standard goodbye..."
+        },
+        {
+          "chunk_id": "chunk_008",
+          "score": 0.3578000068664551,
+          "position": "beginning",
+          "preview": "Q: Did the agent end the call with a polite closing ?  A: The agent should end the call with a polite closing. A normal ..."
+        }
+      ]
+    },
+    {
+      "query": "What do I say before hanging up?",
+      "expected_topic": "closing",
+      "time_ms": 260.23,
+      "results": [
+        {
+          "chunk_id": "chunk_030",
+          "score": 0.34700000286102295,
+          "position": "middle",
+          "preview": "Keep responses concise and relevant  Long emotional statements are NOT required - natural acknowledgment is sufficient  ..."
+        },
+        {
+          "chunk_id": "chunk_005",
+          "score": 0.3546999990940094,
+          "position": "beginning",
+          "preview": "A: PSRs simply need to:  Ask before placing a caller on hold  Thank them when returning  Short, simple phrasing is compl..."
+        },
+        {
+          "chunk_id": "chunk_031",
+          "score": 0.37880000472068787,
+          "position": "middle",
+          "preview": "\"Thank you for holding. I have that information for you now.\"  3.3 Managing Silence and Wait Times  Avoid periods of sil..."
+        }
+      ]
+    },
+    {
+      "query": "How do I schedule an appointment?",
+      "expected_topic": "scheduling",
+      "time_ms": 276.28,
+      "results": [
+        {
+          "chunk_id": "chunk_034",
+          "score": 0.28290000557899475,
+          "position": "middle",
+          "preview": "5. Appointment Scheduling  5.1 New Appointment Requests  All new appointments must be scheduled through the website. Cle..."
+        },
+        {
+          "chunk_id": "chunk_036",
+          "score": 0.289000004529953,
+          "position": "middle",
+          "preview": "Standard Process  Explain that appointments can be rescheduled or cancelled through the website  Offer to assist if the ..."
+        },
+        {
+          "chunk_id": "chunk_021",
+          "score": 0.30630001425743103,
+          "position": "middle",
+          "preview": "A: This question should NOT require a full walkthrough. The PSR should explain the steps to schedule an appointment on t..."
+        }
+      ]
+    },
+    {
+      "query": "What is the process for booking?",
+      "expected_topic": "scheduling",
+      "time_ms": 272.55,
+      "results": [
+        {
+          "chunk_id": "chunk_035",
+          "score": 0.3375999927520752,
+          "position": "middle",
+          "preview": "Key Guidelines  Do NOT walk patients through every step of online booking  Sending the link and confirming receipt is su..."
+        },
+        {
+          "chunk_id": "chunk_034",
+          "score": 0.3792000114917755,
+          "position": "middle",
+          "preview": "5. Appointment Scheduling  5.1 New Appointment Requests  All new appointments must be scheduled through the website. Cle..."
+        },
+        {
+          "chunk_id": "chunk_037",
+          "score": 0.38109999895095825,
+          "position": "middle",
+          "preview": "\"I can check availability at another location if you'd like.\"  6. Appointment Confirmation  6.1 Verification Process  Wh..."
+        }
+      ]
+    },
+    {
+      "query": "How do I handle cancellations?",
+      "expected_topic": "scheduling",
+      "time_ms": 263.57,
+      "results": [
+        {
+          "chunk_id": "chunk_035",
+          "score": 0.3328000009059906,
+          "position": "middle",
+          "preview": "Key Guidelines  Do NOT walk patients through every step of online booking  Sending the link and confirming receipt is su..."
+        },
+        {
+          "chunk_id": "chunk_036",
+          "score": 0.3560999929904938,
+          "position": "middle",
+          "preview": "Standard Process  Explain that appointments can be rescheduled or cancelled through the website  Offer to assist if the ..."
+        },
+        {
+          "chunk_id": "chunk_046",
+          "score": 0.3862000107765198,
+          "position": "end",
+          "preview": "Communication Guidelines  Briefly explain the 15-minute late arrival policy  Offer to help find the next available slot ..."
+        }
+      ]
+    },
+    {
+      "query": "How do I reschedule an appointment?",
+      "expected_topic": "scheduling",
+      "time_ms": 271.21,
+      "results": [
+        {
+          "chunk_id": "chunk_036",
+          "score": 0.24379999935626984,
+          "position": "middle",
+          "preview": "Standard Process  Explain that appointments can be rescheduled or cancelled through the website  Offer to assist if the ..."
+        },
+        {
+          "chunk_id": "chunk_024",
+          "score": 0.24690000712871552,
+          "position": "middle",
+          "preview": "A: The PSR should provide clear instructions on how to reschedule the appointment at our website if the patient indicate..."
+        },
+        {
+          "chunk_id": "chunk_023",
+          "score": 0.27970001101493835,
+          "position": "middle",
+          "preview": "For example, after explaining that missed or late appointments may require rescheduling, the PSR should offer to assist ..."
+        }
+      ]
+    },
+    {
+      "query": "Do you accept walk-ins?",
+      "expected_topic": "walk_in",
+      "time_ms": 267.2,
+      "results": [
+        {
+          "chunk_id": "chunk_038",
+          "score": 0.33399999141693115,
+          "position": "middle",
+          "preview": "Quick, clear confirmation is sufficient  No lengthy explanations required  7. Walk-In Services  7.1 Walk-In Availability..."
+        },
+        {
+          "chunk_id": "chunk_036",
+          "score": 0.35499998927116394,
+          "position": "middle",
+          "preview": "Standard Process  Explain that appointments can be rescheduled or cancelled through the website  Offer to assist if the ..."
+        },
+        {
+          "chunk_id": "chunk_037",
+          "score": 0.37630000710487366,
+          "position": "middle",
+          "preview": "\"I can check availability at another location if you'd like.\"  6. Appointment Confirmation  6.1 Verification Process  Wh..."
+        }
+      ]
+    },
+    {
+      "query": "Can someone come without an appointment?",
+      "expected_topic": "walk_in",
+      "time_ms": 275.29,
+      "results": [
+        {
+          "chunk_id": "chunk_036",
+          "score": 0.32519999146461487,
+          "position": "middle",
+          "preview": "Standard Process  Explain that appointments can be rescheduled or cancelled through the website  Offer to assist if the ..."
+        },
+        {
+          "chunk_id": "chunk_021",
+          "score": 0.36039999127388,
+          "position": "middle",
+          "preview": "A: This question should NOT require a full walkthrough. The PSR should explain the steps to schedule an appointment on t..."
+        },
+        {
+          "chunk_id": "chunk_009",
+          "score": 0.36800000071525574,
+          "position": "beginning",
+          "preview": "A: The PSR should clearly state that all appointments can only be scheduled through the website or the PSR can send them..."
+        }
+      ]
+    },
+    {
+      "query": "How do I give directions to the clinic?",
+      "expected_topic": "directions",
+      "time_ms": 273.37,
+      "results": [
+        {
+          "chunk_id": "chunk_039",
+          "score": 0.2709999978542328,
+          "position": "middle",
+          "preview": "Note that availability may depend on current patient volume  7.2 Walk-In as Alternative  Recommend walk-in visits as an ..."
+        },
+        {
+          "chunk_id": "chunk_015",
+          "score": 0.2809999883174896,
+          "position": "middle",
+          "preview": "Connect (Directions to clinic location / location clarifications (e.g., CMG, CTR))  Q: Did the PSR provide correct direc..."
+        },
+        {
+          "chunk_id": "chunk_016",
+          "score": 0.2962000072002411,
+          "position": "middle",
+          "preview": "A: The PSR should provide PSR gives simple, clear directions and avoid referencing competitors. Sister clinics do not co..."
+        }
+      ]
+    },
+    {
+      "query": "Where is the clinic located?",
+      "expected_topic": "directions",
+      "time_ms": 258.88,
+      "results": [
+        {
+          "chunk_id": "chunk_015",
+          "score": 0.3499999940395355,
+          "position": "middle",
+          "preview": "Connect (Directions to clinic location / location clarifications (e.g., CMG, CTR))  Q: Did the PSR provide correct direc..."
+        },
+        {
+          "chunk_id": "chunk_039",
+          "score": 0.3698999881744385,
+          "position": "middle",
+          "preview": "Note that availability may depend on current patient volume  7.2 Walk-In as Alternative  Recommend walk-in visits as an ..."
+        },
+        {
+          "chunk_id": "chunk_014",
+          "score": 0.388700008392334,
+          "position": "middle",
+          "preview": "A: The PSR should clearly inform the patient that walk-ins are welcome.  Q: Did the PSR guide the patient with any addit..."
+        }
+      ]
+    },
+    {
+      "query": "What should I say about wait times?",
+      "expected_topic": "wait_times",
+      "time_ms": 265.45,
+      "results": [
+        {
+          "chunk_id": "chunk_042",
+          "score": 0.23759999871253967,
+          "position": "end",
+          "preview": "Communication Guidelines  Be honest about current wait times  Explain that wait times vary based on patient volume  Note..."
+        },
+        {
+          "chunk_id": "chunk_048",
+          "score": 0.31040000915527344,
+          "position": "end",
+          "preview": "Silence Management  No dead air exceeding 15 seconds; keep patient informed  Closing  Confirm resolution; polite goodbye..."
+        },
+        {
+          "chunk_id": "chunk_017",
+          "score": 0.3228999972343445,
+          "position": "middle",
+          "preview": "Q: Did the PSR confirm the patient understood the directions of the clinic?  A: A quick check like “Does that help?” is ..."
+        }
+      ]
+    },
+    {
+      "query": "How long is the current wait?",
+      "expected_topic": "wait_times",
+      "time_ms": 252.46,
+      "results": [
+        {
+          "chunk_id": "chunk_042",
+          "score": 0.3921000063419342,
+          "position": "end",
+          "preview": "Communication Guidelines  Be honest about current wait times  Explain that wait times vary based on patient volume  Note..."
+        },
+        {
+          "chunk_id": "chunk_018",
+          "score": 0.41819998621940613,
+          "position": "middle",
+          "preview": "A: PSR gives a realistic expectation in a calm way. A simple time frame or “no wait” is enough.  The PSR should explain ..."
+        },
+        {
+          "chunk_id": "chunk_017",
+          "score": 0.45320001244544983,
+          "position": "middle",
+          "preview": "Q: Did the PSR confirm the patient understood the directions of the clinic?  A: A quick check like “Does that help?” is ..."
+        }
+      ]
+    },
+    {
+      "query": "How does online booking work?",
+      "expected_topic": "online",
+      "time_ms": 269.8,
+      "results": [
+        {
+          "chunk_id": "chunk_035",
+          "score": 0.34790000319480896,
+          "position": "middle",
+          "preview": "Key Guidelines  Do NOT walk patients through every step of online booking  Sending the link and confirming receipt is su..."
+        },
+        {
+          "chunk_id": "chunk_034",
+          "score": 0.3531000018119812,
+          "position": "middle",
+          "preview": "5. Appointment Scheduling  5.1 New Appointment Requests  All new appointments must be scheduled through the website. Cle..."
+        },
+        {
+          "chunk_id": "chunk_044",
+          "score": 0.3537999987602234,
+          "position": "end",
+          "preview": "Provide the correct website link or URL  Offer to send the link directly to the patient  Confirm the patient can access ..."
+        }
+      ]
+    },
+    {
+      "query": "What is the website for scheduling?",
+      "expected_topic": "online",
+      "time_ms": 252.96,
+      "results": [
+        {
+          "chunk_id": "chunk_020",
+          "score": 0.32919999957084656,
+          "position": "middle",
+          "preview": "Q: Did the PSR provide the correct and accurate website link or location for online scheduling?  A: The PSR should provi..."
+        },
+        {
+          "chunk_id": "chunk_034",
+          "score": 0.3310000002384186,
+          "position": "middle",
+          "preview": "5. Appointment Scheduling  5.1 New Appointment Requests  All new appointments must be scheduled through the website. Cle..."
+        },
+        {
+          "chunk_id": "chunk_043",
+          "score": 0.3310999870300293,
+          "position": "end",
+          "preview": "Alternative Options  Offer to reschedule the appointment  Suggest coming in as a walk-in at a different time  Check avai..."
+        }
+      ]
+    },
+    {
+      "query": "What is the policy for late arrivals?",
+      "expected_topic": "late_arrival",
+      "time_ms": 257.5,
+      "results": [
+        {
+          "chunk_id": "chunk_046",
+          "score": 0.25529998540878296,
+          "position": "end",
+          "preview": "Communication Guidelines  Briefly explain the 15-minute late arrival policy  Offer to help find the next available slot ..."
+        },
+        {
+          "chunk_id": "chunk_022",
+          "score": 0.296999990940094,
+          "position": "middle",
+          "preview": "Connect (No-show or late arrival handling)  Q: Did the PSR clearly explain the clinics policy for no-shows or late arriv..."
+        },
+        {
+          "chunk_id": "chunk_045",
+          "score": 0.31610000133514404,
+          "position": "end",
+          "preview": "Always mention walk-in option for patients struggling with online booking  When to Recommend Walk-In  Patient expresses ..."
+        }
+      ]
+    },
+    {
+      "query": "What if someone is running late?",
+      "expected_topic": "late_arrival",
+      "time_ms": 270.21,
+      "results": [
+        {
+          "chunk_id": "chunk_046",
+          "score": 0.36660000681877136,
+          "position": "end",
+          "preview": "Communication Guidelines  Briefly explain the 15-minute late arrival policy  Offer to help find the next available slot ..."
+        },
+        {
+          "chunk_id": "chunk_023",
+          "score": 0.38589999079704285,
+          "position": "middle",
+          "preview": "For example, after explaining that missed or late appointments may require rescheduling, the PSR should offer to assist ..."
+        },
+        {
+          "chunk_id": "chunk_045",
+          "score": 0.387800008058548,
+          "position": "end",
+          "preview": "Always mention walk-in option for patients struggling with online booking  When to Recommend Walk-In  Patient expresses ..."
+        }
+      ]
+    }
+  ]
+}

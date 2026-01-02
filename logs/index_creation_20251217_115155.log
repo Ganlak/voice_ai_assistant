@@ -1,0 +1,38 @@
+2025-12-17 11:51:55 | INFO     | ======================================================================
+2025-12-17 11:51:55 | INFO     | ======================================================================
+2025-12-17 11:51:55 | INFO     | Config: {
+  "data_dir": "data",
+  "sop_document": "WellStreet_Voice_AI_SOP.docx",
+  "faiss_index_dir": "sop_faiss_index",
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "top_k": 3,
+  "embedding_deployment": "wellstreettext-embedding-ada-002"
+}
+2025-12-17 11:51:55 | INFO     | Document size: 0.01 MB
+2025-12-17 11:51:55 | INFO     | Loading: C:\Users\Admin\Documents\voice-ai-poc\data\WellStreet_Voice_AI_SOP.docx
+2025-12-17 11:51:55 | INFO     | Loaded 1 document(s) in 0.02s
+2025-12-17 11:51:55 | INFO     | Total characters: 9,499
+2025-12-17 11:51:55 | INFO     | Total words: 1,343
+2025-12-17 11:51:55 | INFO     | Chunking with size=500, overlap=100
+2025-12-17 11:51:55 | INFO     | Created 25 chunks in 0.00s
+2025-12-17 11:51:55 | INFO     | Chunk sizes - Avg: 437, Min: 44, Max: 497
+2025-12-17 11:51:55 | INFO     | Enriching metadata...
+2025-12-17 11:51:55 | INFO     | Enriched 25 chunks in 0.00s
+2025-12-17 11:51:55 | INFO     | Initializing embeddings (attempt 1/3)
+2025-12-17 11:51:57 | INFO     | Embeddings initialized. Dimension: 1536
+2025-12-17 11:51:57 | INFO     | Creating FAISS index with 25 chunks...
+2025-12-17 11:51:58 | INFO     | Index created in 1.07s
+2025-12-17 11:51:58 | INFO     | Index saved: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index
+2025-12-17 11:51:58 | INFO     | Index files validated
+2025-12-17 11:51:58 | INFO     | Running retrieval tests...
+2025-12-17 11:52:18 | INFO     | Tests complete. Avg query time: 1988.69ms
+2025-12-17 11:52:18 | INFO     | Index info saved: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index\index_info.json
+2025-12-17 11:52:18 | INFO     | 
+======================================================================
+2025-12-17 11:52:18 | INFO     | ======================================================================
+2025-12-17 11:52:18 | INFO     |    Document: WellStreet_Voice_AI_SOP.docx
+2025-12-17 11:52:18 | INFO     |    Chunks: 25
+2025-12-17 11:52:18 | INFO     |    Index Path: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index
+2025-12-17 11:52:18 | INFO     |    Total Time: 23.06s
+2025-12-17 11:52:18 | INFO     | ======================================================================

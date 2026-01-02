@@ -1,0 +1,55 @@
+2025-12-17 15:09:28 | INFO     | ======================================================================
+2025-12-17 15:09:28 | INFO     | SOP FAISS Index Creator - MVP (Multi-Document)
+2025-12-17 15:09:28 | INFO     | ======================================================================
+2025-12-17 15:09:28 | INFO     | Step 0: Validating Configuration
+2025-12-17 15:09:28 | INFO     | Config: {
+  "data_dir": "data",
+  "faiss_index_dir": "sop_faiss_index",
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "top_k": 3,
+  "embedding_deployment": "wellstreettext-embedding-ada-002"
+}
+2025-12-17 15:09:28 | INFO     | Step 1: Discovering Documents
+2025-12-17 15:09:28 | INFO     | Found 2 document(s) in C:\Users\Admin\Documents\voice-ai-poc\data
+2025-12-17 15:09:28 | INFO     |    - PSR_Voice_Agent_Training Document.docx (32.5 KB)
+2025-12-17 15:09:28 | INFO     |    - WellStreet_Voice_AI_SOP.docx (14.4 KB)
+2025-12-17 15:09:28 | INFO     | Step 2: Loading Documents
+2025-12-17 15:09:28 | INFO     | Loading: PSR_Voice_Agent_Training Document.docx
+2025-12-17 15:09:28 | INFO     |    Loaded 1 section(s) from PSR_Voice_Agent_Training Document.docx
+2025-12-17 15:09:28 | INFO     | Loading: WellStreet_Voice_AI_SOP.docx
+2025-12-17 15:09:28 | INFO     |    Loaded 1 section(s) from WellStreet_Voice_AI_SOP.docx
+2025-12-17 15:09:28 | INFO     | Total loaded: 2 document section(s)
+2025-12-17 15:09:28 | INFO     | Step 3: Chunking Documents
+2025-12-17 15:09:28 | INFO     | Chunking with size=500, overlap=100
+2025-12-17 15:09:28 | INFO     | Created 49 chunks in 0.00s
+2025-12-17 15:09:28 | INFO     |    - PSR_Voice_Agent_Training Document.docx: 24 chunks
+2025-12-17 15:09:28 | INFO     |    - WellStreet_Voice_AI_SOP.docx: 25 chunks
+2025-12-17 15:09:28 | INFO     | Step 4: Enriching Metadata
+2025-12-17 15:09:28 | INFO     | Enriching metadata...
+2025-12-17 15:09:28 | INFO     | Enriched 49 chunks
+2025-12-17 15:09:28 | INFO     | Step 5: Initializing Embeddings
+2025-12-17 15:09:28 | INFO     | Initializing embeddings (attempt 1/3)
+2025-12-17 15:09:30 | INFO     | Embeddings initialized. Dimension: 1536
+2025-12-17 15:09:30 | INFO     | Step 6: Creating FAISS Index
+2025-12-17 15:09:30 | INFO     | Creating FAISS index with 49 chunks...
+2025-12-17 15:09:31 | INFO     | Index created in 1.51s
+2025-12-17 15:09:31 | INFO     | Step 7: Saving Index
+2025-12-17 15:09:31 | INFO     | Index saved: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index
+2025-12-17 15:09:31 | INFO     | Step 8: Validating Index
+2025-12-17 15:09:31 | INFO     | Index files validated
+2025-12-17 15:09:31 | INFO     | Step 9: Testing Retrieval
+2025-12-17 15:09:31 | INFO     | Running retrieval tests...
+2025-12-17 15:09:34 | INFO     | Tests complete. Avg time: 259.96ms
+2025-12-17 15:09:34 | INFO     | Step 10: Saving Index Info
+2025-12-17 15:09:34 | INFO     | Index info saved: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index\index_info.json
+2025-12-17 15:09:34 | INFO     | ======================================================================
+2025-12-17 15:09:34 | INFO     | MVP INDEX CREATED SUCCESSFULLY
+2025-12-17 15:09:34 | INFO     | ======================================================================
+2025-12-17 15:09:34 | INFO     |    Documents: 2
+2025-12-17 15:09:34 | INFO     |       - PSR_Voice_Agent_Training Document.docx
+2025-12-17 15:09:34 | INFO     |       - WellStreet_Voice_AI_SOP.docx
+2025-12-17 15:09:34 | INFO     |    Total Chunks: 49
+2025-12-17 15:09:34 | INFO     |    Index Path: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index
+2025-12-17 15:09:34 | INFO     |    Total Time: 6.14s
+2025-12-17 15:09:34 | INFO     | ======================================================================

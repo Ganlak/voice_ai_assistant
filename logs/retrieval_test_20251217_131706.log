@@ -1,0 +1,13 @@
+2025-12-17 13:17:06 | INFO     | ======================================================================
+2025-12-17 13:17:06 | INFO     | SOP Retrieval Test - MVP Production
+2025-12-17 13:17:06 | INFO     | ======================================================================
+2025-12-17 13:17:06 | INFO     | Loading FAISS index...
+2025-12-17 13:17:06 | INFO     | Index files validated: C:\Users\Admin\Documents\voice-ai-poc\sop_faiss_index
+2025-12-17 13:17:06 | INFO     | Loading FAISS index...
+2025-12-17 13:17:07 | INFO     | Index loaded in 0.84s
+2025-12-17 13:17:07 | INFO     | Index info loaded: 25 chunks
+2025-12-17 13:17:07 | INFO     | Running batch tests...
+2025-12-17 13:17:07 | INFO     | Running 21 test queries...
+2025-12-17 13:17:14 | INFO     | Batch tests complete. Avg time: 309.97ms
+2025-12-17 13:17:14 | INFO     | Results saved: C:\Users\Admin\Documents\voice-ai-poc\logs\retrieval_results_20251217_131714.json
+2025-12-17 13:17:14 | INFO     | Test run complete
